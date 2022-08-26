@@ -1,4 +1,4 @@
-# steam
+# There are two resolutions 
 Steam clone 08262022 
 
 
