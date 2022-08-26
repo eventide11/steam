@@ -1,0 +1,552 @@
+* {
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+
+    body {
+        width: 100%;
+        height: 100vh;
+        font-size: 16px;
+        background: rgb(44, 57, 77);
+    }
+    header {
+        width: 100%;
+        height: 50px;
+        font-family: 'Montserrat', sans-serif;
+        background: black;
+    }
+    header p {
+        display: inline-block;
+        font-size: 1.5rem;
+        line-height: 50px;
+        margin: 0 0 0 2%;
+    }
+    div.header2 {
+        width: 100%;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2.4rem;
+        margin: 0 0 0 0;
+        padding: 10px 0 30px 0;
+        background: black;
+    }
+    div.header2 div {
+        width: 3%;
+        height: 36px;
+        display: inline-block;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    div.header2 div.previous {
+        margin: 0 0 0 2%;
+        background-image: url(previousArrow154x215.png);
+    }
+    div.header2 div.next {
+        margin: 0 0 0 2%;
+        background-image: url(nextArrow154x215.png);
+    }
+    div.header2 p {
+        display: inline-block;
+        margin: 0 0 0 1%;
+    }
+    div.header3 {
+        width: 80%;
+        height: 50px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.2rem;
+        margin: 70px 0 0 20%;
+        background: rgb(54, 134, 191);
+    }
+    div.header3 div, div.header3 p {
+        display: inline-block;
+        margin: 0 0 0 2%;
+    }
+    div.header3 div {
+        width: 4%;
+        height: 40px;
+        margin: 5px 0 0 .5%;
+        position: absolute;
+        background-image: url(belleDelphine121x171.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    div.header3 p {
+        position: relative;
+        left: 6%;
+        top: 13.335px;
+    }
+    aside div.list {
+        width: 17%;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.2rem;
+        margin: 0 0 0 2%;
+        position: absolute;
+        top: 206.67px;
+    }
+    aside div.list ul div {
+        width: 56%;
+        height: 130px;
+        margin: 0 auto;
+        background-image: url(steamGiftCard138x138.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    aside div.list ul li {
+        list-style: none;
+        margin: 10px 0 0 0;
+    }
+    aside div.list ul li.marginTop {
+        color: darkgoldenrod;
+        margin: 30px 0 0 0;
+    }
+    aside div.list ul li.icon {
+        padding: 0 0 0 15%;
+        background-image: url(hotChocolate25x25.png);
+        background-position: 0 .835px;
+        background-repeat: no-repeat;
+    }
+    aside div.list ul li.christmas {
+        background-image: url(hotChocolate25x25.png);
+    }
+    aside div.list ul li.birthday {
+        background-image: url(gift25x25.png);
+    }
+    aside div.list ul li.halloween {
+        background-image: url(ghost25x25.png);
+    }
+    aside div.list ul a {
+        margin: 50px 0 0 0;
+    }
+    aside div.list ul a div {
+        width: 25%;
+        height: 50px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    aside div.list ul a.myspace div {
+        margin: 30px 0 0 0;
+        background-image: url(../../image/socialMediaIcons/myspace189x169.png);
+    }
+    aside div.list ul a.youtube div {
+        margin: 25px 0 0 0;
+        background-image: url(../../image/socialMediaIcons/youtube205x205.png);
+    }
+    aside div.dev {
+        width: 17%;
+        font-size: 1.7rem;
+        line-height: 2;
+        margin: 0px 0 0 2%;
+        position: absolute;
+        top: 1850.33px;
+        text-align: center;
+    }
+    aside div.dev img {
+        width: 10%;
+        height: 25px;
+        margin: 0 auto;
+    }
+    div.featured {
+        width: 80%;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.4rem;
+        position: absolute;
+        left: 20%;
+        top: 326.67px;
+    }
+    main {
+        width: 80%;
+        height: 500px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.4rem;
+        position: absolute;
+        left: 20%;
+        top: 382.67px;
+        background: rgb(36, 44, 56);
+    }
+    main div.game {
+        width: 65%;
+        height: 100%;
+        float: left;
+        background-image: url(zelda1Of5_1152x648.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    main div.snippets {
+        width: 35%;
+        height: 100%;
+        float: left;
+        font-family: 'Montserrat', sans-serif;
+    }
+    main div.snippets p.title {
+        height: 150px;
+        font-size: 2.4rem;
+        margin: 0 0 0 2%;
+    }
+    main div.snippets div {
+        width: 50%;
+        height: 125px;
+        float: left;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    main div.snippets div.snippet1 {
+        background-image: url(zelda2Of5_330x186.jpg);
+    }
+    main div.snippets div.snippet2 {
+        background-image: url(zelda3Of5_326x184.png);
+    }
+    main div.snippets div.snippet3 {
+        background-image: url(zelda4Of5_320x180.jpg);
+    }
+    main div.snippets div.snippet4 {
+        background-image: url(zelda5Of5_320x180.jpg);
+    }
+    main div.snippets p.caption {
+        font-size: 1.2rem;
+        margin: 0 0 0 2%;
+    }
+    main div.snippets p.price {
+        font-size: 1.2rem;
+        margin: 20px 0 0 2%;
+    }
+    div.specials {
+        width: 80%;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.4rem;
+        position: absolute;
+        left: 20%;
+        top: 963.67px;
+    }
+    div.main2 {
+        width: 80%;
+        height: 1015px;
+        position: absolute;
+        left: 20%;
+        top: 1020.67px;
+        display: grid;
+        grid-template-columns: 34% 34% 30%;
+        grid-template-rows: 500px 500px;
+        grid-gap: 1%;
+    }
+    div.main2 div {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    div.main2 div.hitman {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        background-image: url(hitman578x635.jpg);
+    }
+    div.main2 div.twd {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        background-image: url(twd431x691.jpg);
+        background-position: center top;
+    }
+    div.main2 div.crea {
+        grid-column: 3/4;
+        grid-row: 1/2;
+        background-image: url(crea554x642.jpg);
+    }
+    div.main2 div.belleDelphine {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        background-image: url(belleDelphine405x883.jpg);
+        background-position: center top;
+    }
+    div.main2 div.re4 {
+        grid-column: 2/-1;
+        grid-row: 2/3;
+        background-image: url(re5_733x637.jpg);
+        background-position: center top;
+    }
+
+
+
+
+
+
+
+
+
+
+/* 1920 x 1080 */
+@media only screen and (min-width: 1920px) {
+    body {
+        width: 100%;
+        height: 100vh;
+        font-size: 16px;
+        background: rgb(44, 57, 77);
+    }
+    header {
+        width: 100%;
+        height: 70px;
+        font-family: 'Montserrat', sans-serif;
+        background: black;
+    }
+    header p {
+        display: inline-block;
+        font-size: 2.3rem;
+        line-height: 70px;
+        margin: 0 0 0 1%;
+    }
+    div.header2 {
+        width: 100%;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 3.2rem;
+        padding: 20px 0 40px 0;
+        background: black;
+    }
+    div.header2 div {
+        width: 3%;
+        height: 62px;
+        display: inline-block;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    div.header2 div.previous {
+        margin: 0 0 0 1%;
+        background-image: url(previousArrow154x215.png);
+    }
+    div.header2 div.next {
+        margin: 0 0 0 2%;
+        background-image: url(nextArrow154x215.png);
+    }
+    div.header2 p {
+        display: inline-block;
+        margin: 0 0 0 2%;
+    }
+    div.header3 {
+        width: 78%;
+        height: 90px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2rem;
+        margin: 90px 0 0 22%;
+        background: rgb(54, 134, 191);
+    }
+    div.header3 div, div.header3 p {
+        display: inline-block;
+        margin: 0 0 0 2%;
+    }
+    div.header3 div {
+        width: 4%;
+        height: 80px;
+        margin: 5px 0 0 .5%;
+        position: absolute;
+        background-image: url(belleDelphine121x171.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    div.header3 p {
+        position: relative;
+        left: 6%;
+        top: 25.665px;
+    }
+    aside div.list {
+        width: 20%;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2rem;
+        margin: 0 0 0 1%;
+        position: absolute;
+        top: 296.67px;
+    }
+    aside div.list ul div {
+        width: 70%;
+        height: 130px;
+        margin: 0 auto;
+        background-image: url(epic333x266.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    aside div.list ul li {
+        list-style: none;
+        margin: 10px 0 0 0;
+    }
+    aside div.list ul li.marginTop {
+        color: darkgoldenrod;
+        margin: 30px 0 0 0;
+    }
+    aside div.list ul li.icon {
+        padding: 0 0 0 15%;
+        background-image: url(hotChocolate25x25.png);
+        background-position: 0 .835px;
+        background-repeat: no-repeat;
+    }
+    aside div.list ul li.christmas {
+        background-image: url(hotChocolate38x38.png);
+    }
+    aside div.list ul li.birthday {
+        background-image: url(gift38x38.png);
+    }
+    aside div.list ul li.halloween {
+        background-image: url(ghost38x38.png);
+    }
+    aside div.list ul a {
+        margin: 50px 0 0 0;
+    }
+    aside div.list ul a div {
+        width: 25%;
+        height: 80px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    aside div.list ul a.myspace div {
+        margin: 30px 0 0 0;
+        background-image: url(../../image/socialMediaIcons/myspace189x169.png);
+    }
+    aside div.list ul a.youtube div {
+        margin: 30px 0 0 0;
+        background-image: url(../../image/socialMediaIcons/youtube205x205.png);
+    }
+    aside div.dev {
+        width: 17%;
+        font-size: 2.1rem;
+        line-height: 1.5;
+        margin: 0px 0 0 1%;
+        position: absolute;
+        top: 2580.33px;
+        text-align: center;
+    }
+    aside div.dev img {
+        width: 10%;
+        height: 25px;
+        margin: 0 auto;
+    }
+    div.featured {
+        width: 78%;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2.2rem;
+        position: absolute;
+        left: 22%;
+        top: 466.67px;
+    }
+    main {
+        width: 78%;
+        height: 700px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2.2rem;
+        position: absolute;
+        left: 22%;
+        top: 562.67px;
+        background: rgb(36, 44, 56);
+    }
+    main div.game {
+        width: 65%;
+        height: 100%;
+        float: left;
+        background-image: url(zelda1Of5_1280x720.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    main div.snippets {
+        width: 35%;
+        height: 100%;
+        float: left;
+        font-family: 'Montserrat', sans-serif;
+    }
+    main div.snippets p.title {
+        height: 200px;
+        font-size: 3.2rem;
+        margin: 0 0 0 2%;
+    }
+    main div.snippets div {
+        width: 50%;
+        height: 150px;
+        float: left;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    main div.snippets div.snippet1 {
+        background-image: url(zelda2Of5_330x186.jpg);
+    }
+    main div.snippets div.snippet2 {
+        background-image: url(zelda3Of5_326x184.png);
+    }
+    main div.snippets div.snippet3 {
+        background-image: url(zelda4Of5_320x180.jpg);
+    }
+    main div.snippets div.snippet4 {
+        background-image: url(zelda5Of5_320x180.jpg);
+    }
+    main div.snippets p.caption {
+        font-size: 2rem;
+        margin: 0 0 0 2%;
+    }
+    main div.snippets p.price {
+        font-size: 2rem;
+        margin: 60px 0 0 2%;
+    }
+    div.specials {
+        width: 78%;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2.2rem;
+        position: absolute;
+        left: 22%;
+        top: 1353.67px;
+    }
+    div.main2 {
+        width: 78%;
+        position: absolute;
+        left: 22%;
+        top: 1433.67px;
+        display: grid;
+        grid-template-columns: 34% 34% 30%;
+        grid-template-rows: 700px 700px;
+        grid-gap: 1%;
+    }
+    div.main2 div {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    div.main2 div.hitman {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        background-image: url(hitman658x776.jpg);
+    }
+    div.main2 div.twd {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        background-image: url(twd511x752.jpg);
+        background-position: center;
+    }
+    div.main2 div.crea {
+        grid-column: 3/4;
+        grid-row: 1/2;
+        background-image: url(crea533x719.jpg);
+    }
+    div.main2 div.belleDelphine {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        background-image: url(belleDelphine531x719.jpg);
+        background-position: center;
+    }
+    div.main2 div.re4 {
+        grid-column: 2/-1;
+        grid-row: 2/3;
+        background-image: url(re5_1219x926.jpg);
+        background-position: center top;
+    }
+}
