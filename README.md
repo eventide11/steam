@@ -8,7 +8,7 @@ You can change the resolution in the index.CSS file. Line 288:
 
 @media only screen and (min-width: 1920px)   /* change 1920 to 2560 for a resolution of 2560 x 1440 */ 
 
-Why not only a single resolution? Billions of people are now using their smartphones to browse the Internet so you have to make your websites 'responsive' to whatever screen resolution their smartphones are using. So if you develop a website for a 1920 x 1080 resolution, you should probably also make that website 'reponsive' to the iPhone 13. 
+Why not only a single resolution? Billions of people are now using their smartphones to browse the Internet so you have to make your websites 'responsive' to whatever screen resolution their smartphones are using. So if you develop a website for a 1920 x 1080 resolution, you should probably also make that website 'responsive' to the iPhone 13. 
 
 Youtube 'CSS responsive design' to learn more. 
 
