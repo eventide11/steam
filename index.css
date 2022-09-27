@@ -27,6 +27,85 @@ a {
         line-height: 50px;
         margin: 0 0 0 2%;
     }
+    header p.steam {
+        position: relative;
+    }
+    div.menuSteam ul li, div.menuView ul li, div.menuFriends ul li, div.menuGames ul li, div.menuHelp ul li {
+        list-style: none;
+        margin-top: 10px;
+    }
+    div.menuSteam {
+        width: 32%;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.5rem;
+        position: absolute;
+        left: 2%;
+        top: 50px;
+        z-index: 1;
+        background: pink;
+    }
+    div.menuView {
+        width: 20%;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.5rem;
+        position: absolute;
+        left: 10.4%;
+        top: 50px;
+        z-index: 1;
+        background: pink;
+    }
+    div.menuFriends {
+        width: 26%;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.5rem;
+        position: absolute;
+        left: 17.5%;
+        top: 50px;
+        z-index: 1;
+        background: pink;
+    }
+    div.menuGames {
+        width: 38%;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.5rem;
+        position: absolute;
+        left: 26.9%;
+        top: 50px;
+        z-index: 1;
+        background: pink;
+    }
+    div.menuHelp {
+        width: 30%;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.5rem;
+        position: absolute;
+        left: 36%;
+        top: 50px;
+        z-index: 1;
+        background: pink;
+    }
+    .invisible {
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     div.header2 {
         width: 100%;
         font-family: 'Montserrat', sans-serif;
