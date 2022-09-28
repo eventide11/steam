@@ -19,7 +19,7 @@ header {
     font-family: 'Montserrat', sans-serif;
     background: black;
 }
-header p:hover, div.subMenu ul li, div.subMenu {
+header p:hover, div.subMenu ul li, div.subMenu div, div.subMenu p {
     cursor: pointer;
 }
 header p {
