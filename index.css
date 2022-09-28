@@ -19,6 +19,9 @@ header {
     font-family: 'Montserrat', sans-serif;
     background: black;
 }
+header p:hover, div.subMenu ul li, div.subMenu {
+    cursor: pointer;
+}
 header p {
     display: inline-block;
     font-size: 1.5rem;
